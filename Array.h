@@ -11,4 +11,5 @@ typedef struct {
 Array * initArray(const unsigned int elementSize);
 Array * _initArray(const unsigned int elementSize, const unsigned int capacity);
 int addItem(Array * array, void * item);
+int deleteItem(Array * array, int index);
 int freeArray(Array * array);
